@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "colors.scss";
+@import "variables.scss";
+
+html,
+body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+  font-weight: 400;
+  background-color: $bg-color;
+  color: $font-color;
+}
+
+input, textarea {
+  
+}
