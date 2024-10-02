@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-[100px] p-5 fixed top-0 left-0 bg-[#121212] z-[99]">
+    <header class="w-full h-[100px] p-5 fixed top-0 left-0 bg-[#121212] z-[99]">
         <div class="bg-[#333333] h-full p-3 flex w-full rounded-md">
             <div class="lg:w-[250px] logo pl-3">LOGO</div>
             <div class="md:flex justify-between pl-3 w-full lg:w-[calc(100%-250px)] hidden">
@@ -23,7 +23,7 @@
             </div>
         </div>
         <side-drawer :open="open" :onClose="onDrawerClose" @update:open="open = $event" />
-    </div>
+    </header>
 </template>
 <script>
 import SideDrawer from '../SideDrawer/SideDrawer.vue'

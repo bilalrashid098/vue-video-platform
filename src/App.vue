@@ -1,19 +1,25 @@
 <template>
-  <DashboardLayout>
-    <Dashboard />
-  </DashboardLayout>
+  <a-config-provider
+    :theme="{
+      algorithm: theme.darkAlgorithm,
+      token: customTheme,
+    }"
+  >
+    <router-view />
+  </a-config-provider>
 </template>
 
-<script>  
-import DashboardLayout from './components/Layout/DashboardLayout.vue';
-import Dashboard from './views/Dashboard/Dashboard.vue';
-
+<script>
+import { theme } from 'ant-design-vue';
+import { customTheme } from '@/utils/constants';
 
 export default {
   name: 'App',
-  components: {
-    Dashboard,
-    DashboardLayout
-  }
+  data() {
+    return {
+      customTheme,
+      theme
+    };
+  },
 }
 </script>

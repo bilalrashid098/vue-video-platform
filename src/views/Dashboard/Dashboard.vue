@@ -18,6 +18,7 @@ export default {
         return {
             videos: [
                 {
+                    id: 1,
                     title: "Video Title",
                     owner: {
                         name: "Owner Name",
@@ -30,6 +31,7 @@ export default {
                     duration: "40:20",
                 },
                 {
+                    id: 2,
                     title: "Video Title",
                     owner: {
                         name: "Owner Name",
@@ -41,6 +43,7 @@ export default {
                     createdAt: "02/10/2024",
                     duration: "40:20",
                 },{
+                    id: 3,
                     title: "Video Title",
                     owner: {
                         name: "Owner Name",
@@ -52,6 +55,7 @@ export default {
                     createdAt: "02/10/2024",
                     duration: "40:20",
                 },{
+                    id: 1,
                     title: "Video Title",
                     owner: {
                         name: "Owner Name",
@@ -63,6 +67,7 @@ export default {
                     createdAt: "02/10/2024",
                     duration: "40:20",
                 },{
+                    id: 1,
                     title: "Video Title",
                     owner: {
                         name: "Owner Name",
@@ -74,6 +79,7 @@ export default {
                     createdAt: "02/10/2024",
                     duration: "40:20",
                 },{
+                    id: 1,
                     title: "Video Title",
                     owner: {
                         name: "Owner Name",
@@ -85,6 +91,7 @@ export default {
                     createdAt: "02/10/2024",
                     duration: "40:20",
                 },{
+                    id: 1,
                     title: "Video Title",
                     owner: {
                         name: "Owner Name",
@@ -96,6 +103,7 @@ export default {
                     createdAt: "02/10/2024",
                     duration: "40:20",
                 },{
+                    id: 1,
                     title: "Video Title",
                     owner: {
                         name: "Owner Name",
@@ -107,6 +115,7 @@ export default {
                     createdAt: "02/10/2024",
                     duration: "40:20",
                 },{
+                    id: 1,
                     title: "Video Title",
                     owner: {
                         name: "Owner Name",
@@ -118,6 +127,7 @@ export default {
                     createdAt: "02/10/2024",
                     duration: "40:20",
                 },{
+                    id: 1,
                     title: "Video Title",
                     owner: {
                         name: "Owner Name",

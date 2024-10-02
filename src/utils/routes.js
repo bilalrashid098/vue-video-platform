@@ -1,4 +1,4 @@
 export const appRoutes = {
   dashboard: "/",
-  videoDetail: "/video",
+  videoDetail: (id) => `/video/${id}`,
 };
